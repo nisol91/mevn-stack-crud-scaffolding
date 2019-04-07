@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Posts from '@/components/Posts'
 import NewPost from '@/components/NewPost'
 import EditPost from '@/components/EditPost'
+import ToDo from '@/components/ToDo'
 
 Vue.use(Router)
 
@@ -13,6 +14,11 @@ export default new Router({
     path: '/',
     name: 'HelloWorld',
     component: HelloWorld
+  },
+  {
+    path: '/todos',
+    name: 'ToDo',
+    component: ToDo
   },
   {
     path: '/posts',

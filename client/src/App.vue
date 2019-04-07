@@ -2,6 +2,8 @@
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
     <router-view/>
+    <router-link v-bind:to="{ name: 'HelloWorld' }" class="">Back to Home</router-link>
+
   </div>
 </template>
 
