@@ -27,12 +27,12 @@ var mongoClient = new MongoClient(uri, {
 	autoReconnect: true,
 	useNewUrlParser: true
 })
-mongoClient.connect((err, db) => { // returns db connection
+mongoClient.connect((err, db_todo) => { // returns db connection
 	if (err != null) {
 		console.log(err)
 		return
 	}
-	client = db
+	client = db_todo
 })
 
 

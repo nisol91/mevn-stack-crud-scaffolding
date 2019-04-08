@@ -41,7 +41,7 @@ export default {
       // remove the array element with the matching id
       this.todos = this.todos.filter(function (obj) {
         return obj._id !== todoID
-	   })
+      })
     }
   }
 }
